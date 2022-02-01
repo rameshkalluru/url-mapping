@@ -1,0 +1,29 @@
+h3{
+    color: blueviolet;
+}
+p{
+    color: rgb(21, 37, 220);
+   
+}
+table{
+    color: mediumturquoise;
+    background-color: navy;
+}
+td{
+    color: paleturquoise;
+}
+tr{
+    color: red;
+}
+h1{
+    color: tomato;
+}
+h2{
+    color: rgb(211, 103, 21);
+}
+h4{
+    color: rgb(183, 27, 240);
+}
+h5{
+    color: springgreen;
+}

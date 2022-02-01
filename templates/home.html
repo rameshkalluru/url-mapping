@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/css/ramesh.css'%}" type="text/css">
+</head>
+<body>
+    <a href="{% url 'home' %}"><button>home</button></a>
+    <a href="{% url 'mark' %}"><button>mark</button></a>
+    <a href="{% url 'mass' %}"><button>mass</button></a>
+    <a href="{% url 'music'%}"><button>music</button></a>
+    <a href="{% url 'rock' %}"><button>rock</button></a>
+    <a href="{% url 'contact' %}"><button>contact</button></a>
+    <a href="{% url 'index' %}"><button>index</button></a>
+    <a href="{% url 'about' %}"><button>about</button></a>
+
+    <h1>i am here</h1>
+    <table border="3">
+        <tr>
+            <td>Lorem.</td>
+            <td>Possimus!</td>
+            <td>Distinctio!</td>
+            <td>Nulla.</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Eaque.</td>
+            <td>Quia.</td>
+            <td>Iste.</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Cum.</td>
+            <td>Quod.</td>
+            <td>Reprehenderit?</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Libero.</td>
+            <td>Exercitationem.</td>
+            <td>Rerum.</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Harum.</td>
+            <td>Eum?</td>
+            <td>Similique.</td>
+        </tr>
+    </table>
+</body>
+</html>

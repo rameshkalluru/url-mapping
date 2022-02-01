@@ -1,0 +1,29 @@
+h1{
+    color: rgb(129, 147, 131);
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: rgb(83, 177, 236);
+}
+h4{
+    color: cornflowerblue;
+}
+h5{
+    color: crimson;
+}
+h6{
+    color: darkmagenta;
+}
+a{
+    color: darkturquoise;
+    background-color: deeppink;
+}
+
+table{
+    color: rgb(208, 21, 21);
+}
+p{
+    background-color: lavenderblush;
+}
